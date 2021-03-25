@@ -39,17 +39,6 @@ class PizzaController extends Controller
         return view('pizzas.show', ['pizza' => $pizza]);
     }
 
-    public function edit($id)
-    {
-        
-    }
-
-    public function update(Request $request, $id)
-    {
-        
-    }
-
-
     public function destroy($id)
     {
         $pizza = Pizza::findOrFail($id);

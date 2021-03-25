@@ -18,6 +18,7 @@ Route::delete('/pizzas/{id}', 'PizzaController@destroy')->name('pizzas.destroy')
 Route::get('/pizzas/{id}', 'PizzaController@show')->name('pizzas.show');
 
 
+
 Auth::routes([
     'register' => false
 ]);
