@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref full-height text-dark">
             <div class="content">
                <h1> Laravel project</h1>
                 <h3 class="mt-5"> 
